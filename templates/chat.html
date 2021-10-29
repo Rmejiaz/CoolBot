@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}ChatBot{% endblock %}
+
+{% block content %}
+<h1>Chat</h1>
+{% for i,j in user|zip(bot) %}
+<h2>You: {{i}}</h2>
+<h2>Bot: {{j}}</h2>
+{% endfor%}
+<form method="post">
+    <p><input type="text" name = "nm" /></p>
+    <p><input type="submit" value = "Send" /></p>
+</form>
+{% endblock %}
+
+
+
+
