@@ -2,4 +2,4 @@
 
 ChatBot implementado en `Flask` y `nltk`.
 
-Hecho por _rmejiaz_ y _sbuitragoo_ Estudiantes de Ingeniería Electrónica y Computer Science.
+Hecho por [_rmejiaz_](https://github.com/Rmejiaz) y [_sbuitragoo_](https://github.com/sbuitragoo) Estudiantes de Ingeniería Electrónica.
