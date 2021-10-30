@@ -4,12 +4,12 @@
 {% block content %}
 <h1 class="chat">Chat</h1>
 {% for i,j in user|zip(bot) %}
-<h2>You: {{i}}</h2>
-<h2>Bot: {{j}}</h2>
+<h2 class="h2-chat1">You: {{i}}</h2>
+<h2 class="h2-chat2">Bot: {{j}}</h2>
 {% endfor%}
 <form method="post">
-    <p><input type="text" name = "nm" style="margin-left: 556px;" /></p>
-    <p><input type="submit" value = "Send" style="margin-left: 680px;"/></p>
+    <p><input type="text" name = "nm" style="margin-left: 10px;" /></p>
+    <p><input type="submit" value = "Send" style="margin-left: 100px;"/></p>
 </form>
 
 <img src="../static/Avatar.png" 

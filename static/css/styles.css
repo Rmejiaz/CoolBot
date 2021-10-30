@@ -44,5 +44,20 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.h2-chat1 {
+    margin-left: 10px;
+    margin-right: 600px;
+    background-color: lightgray;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-size: auto;
+}
     
-    
+.h2-chat2 {
+    margin-left: 200px;
+    margin-right: 600px;
+    background-color: lightgreen;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-size: auto;
+}
