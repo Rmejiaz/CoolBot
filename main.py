@@ -1,13 +1,17 @@
 from flask import Flask, redirect, url_for, render_template, request
 import numpy as np
 import time
+from utils import clean_message
 
 app = Flask(__name__)
 app.jinja_env.filters['zip'] = zip
 
 
+
+
 def get_answer(message):
-    output = "---"
+    message = clean_message(message)
+    output = message + ' tu'
     return output
 
 @app.route("/")
