@@ -1,0 +1,48 @@
+.chat {
+    background-color: #ff5757;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45pt;
+}
+
+.info {
+    background-color: lightseagreen;
+    font-size: 45pt;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 0%;
+}
+
+.made {
+    background-color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.made1 {
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25pt;
+}
+
+.home1{
+    background-color: black;
+    color: white;
+    font-size: 60pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home2{
+    font-size: 50pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    
+    
