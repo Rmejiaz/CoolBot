@@ -1,0 +1,95 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": [
+            "hola",
+            "holita",
+            "hello",
+            "hi",
+            "hallo",
+            "ola"
+        ],
+        "responses": [
+            "Hola, como puedo ayudarte?",
+            "Hola",
+            "Es un gusto saludarte",
+            "Es un gusto saludar y ser saludado",
+            "Hola, mi nombre es CoolBot, como puedo ayudarte?",
+            "Hola, como estas?",
+            "Como te va el dia de hoy?",
+            "Hallo!",
+            "Hi tu"
+        ],
+        "context": [
+            ""
+        ]
+    },
+    {
+        "tag": "greetings1",
+        "patterns": [
+            "como estas",
+            "como te va",
+            "como estas tu",
+            "como estas hoy",
+            "como te va hoy",
+            "como esta",
+            "como le va",
+            "que tal va",
+            "como va",
+            "bien o no"
+        ],
+        "responses": [
+            "Muy bien y tu?",
+            "Muy bien, gracias por preguntar",
+            "Super!",
+            "Muy bien, como estas tu?",
+            "Encantado de saludarte y tu que tal vas?",
+            "Muy bien, gloria a Dios"
+        ],
+        "context": [
+            ""
+        ]
+    },
+    {
+        "tag": "ans_g1",
+        "patterns": [
+            "bien",
+            "super",
+            "excelente",
+            "feliz"
+        ],
+        "responses": [
+            "Me alegra, como puedo ayudarte?"
+        ]
+    },
+    {
+        "tag": "ans_g2",
+        "patterns": [
+            "mal",
+            "no muy bien",
+            "triste",
+            "ahi vamos",
+            "luchandola"
+        ],
+        "responses": [
+            "Que mal, hay algo en lo que pueda ayudarte?",
+            "Puedo ayudarte con algo?",
+            "Hay algo que pueda hacer por ti?"
+        ]
+    },
+    {
+        "tag": "temas",
+        "patterns": [
+            "puedes enseñarme algo",
+            "que puedes enseñarme",
+            "que sabes",
+            "en que puedes ayudarme",
+            "ayuda"
+        ],
+        "responses": [
+            "Actualmente solo tengo conocimientos en lógica de predicados y marcos, probablemente en unos días sepa más cosas.",
+            "Se de lógica de predicados y marcos, ¿en qué puedo ayudarte?",
+            "Los temas que domino son lógica de predicados y marcos, pregunta lo que quieras."
+        ]
+    }
+]}

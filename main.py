@@ -1,18 +1,16 @@
 from flask import Flask, redirect, url_for, render_template, request
 import numpy as np
 import time
-from utils import clean_message
+from utils import chat_response
+import tensorflow as tf
+import json
 
 app = Flask(__name__)
 app.jinja_env.filters['zip'] = zip
 
 
-
-
-def get_answer(message):
-    message = clean_message(message)
-    output = message + ' tu'
-    return output
+model = tf.keras.models.load_model('model1.h5')
+intents = json.loads(open('intents.json').read())
 
 @app.route("/")
 def home():
@@ -31,15 +29,13 @@ def chat():
     if request.method == "POST":
         user_message = request.form["nm"]
         user_messages.append(user_message)
-        bot_message = get_answer(user_message)
+        bot_message = chat_response(user_message, model, intents)
         bot_messages.append(bot_message)
         return render_template("chat.html", user = user_messages, bot = bot_messages)
     else:
         return render_template("chat.html", user = user_messages, bot = bot_messages)
 
-@app.route("/<usr>")
-def user(usr):
-    return f"<h1>{usr}</h1>"
+
 
 
 
