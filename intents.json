@@ -249,7 +249,10 @@
         "puedes mostrarme ejemplos de marcos"
       ],
       "responses": [
-       "Probablemente esto te pueda ayudar: https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)" 
+       "../static/ej1.png",
+       "../static/ej2.png",
+       "../static/ej3.png",
+       "../static/ej4.png"
       ]
     },
     {

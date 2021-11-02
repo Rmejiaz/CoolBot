@@ -22,18 +22,24 @@ def home():
 def info():
     return render_template("info.html")
 
+
 user_messages = []
 bot_messages = []
 @app.route("/chat", methods = ["POST", "GET"])
 def chat():
+    image = False
     if request.method == "POST":
         user_message = request.form["nm"]
         user_messages.append(user_message)
         bot_message = chat_response(user_message, model, intents)
         bot_messages.append(bot_message)
-        return render_template("chat.html", user = user_messages, bot = bot_messages)
+        if bot_message[-3:] == "png":
+            image = True
+        else:
+            image = False
+        return render_template("chat.html", user = user_messages, bot = bot_messages, image = image)
     else:
-        return render_template("chat.html", user = user_messages, bot = bot_messages)
+        return render_template("chat.html", user = user_messages, bot = bot_messages, image = image)
 
 
 
