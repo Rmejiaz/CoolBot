@@ -92,5 +92,155 @@
             "Se de lógica de predicados y marcos, ¿en qué puedo ayudarte?",
             "Los temas que domino son lógica de predicados y marcos, pregunta lo que quieras."
         ]
+    },
+    {
+      "tag": "logica_def",
+      "patterns": [
+        "logica",
+        "que es logica",
+        "cual es la definicion de logica",
+        "como se define la logica"
+      ],
+      "responses": [
+        "En pocas palabras, la lógica es el estudio del razonamiento y si este es correcto.",
+        ""
+      ]
+    },
+    {
+      "tag": "logica_comp",
+      "patterns": [
+        "que mas sabes sobre logica",
+        "dime algo mas sobre logica",
+        "dime algo acerca de la logica",
+        "quiero saber mas sobre logica",
+        "puedes decirme mas"
+      ],
+      "responses": [
+       "La lógica se centra en la relación entre las afirmaciones y no en el contenido de una afirmación en particular. Una proposición es una unidad semántica que, o solo es verdadera, o solo es falsa, pero no ambas cosas." 
+      ]
+    },
+    {
+      "tag": "logica_util",
+      "patterns": [
+        "para que sirve la logica",
+        "que usos tiene la logica",
+        "para que se puede utilizar la logica",
+        "en que se puede emplear la logica",
+        "" 
+      ],
+      "responses": [
+        "La lógica formal puede ser utilizada para representar el conocimiento. En concreto se utiliza la lógica de predicados, que está basada en la idea que las sentencias expresan relaciones entre los objetos, cualidades o atributos de estos.",
+        "La lógica de predicados se basa en el hecho de que las sentencias establecen relaciones entre los objetos y sus atributos, lo cual puede ser utilizado para representar el conocimiento.",
+        "La logica de predicados se usa para establecer relaciones entre los objetos o cualidades o atributos de estos."
+      ]
+    },
+    {
+      "tag": "logica_elem",
+      "patterns": [
+        "que elementos tiene la logica",
+        "como se conforma la logica",
+        "que elementos conforman la logica",
+        "que elementos componen la logica",
+        "de que esta hecha la logica",
+        "como se forma la logica"
+      ],
+      "responses": [
+        "-Alfabeto \n-Lenguaje formal \n-Conjunto de enunciados \n-Conjunto de reglas de inferencia"
+      ]
+    },
+    {
+      "tag": "alfabeto",
+      "patterns": [
+       "que es el alfabeto",
+       "alfabeto",
+       "como se compone el alfabeto" 
+      ],
+      "responses": [
+        "El alfabeto se compone de: \n-Constantes \n-Variables \n-Funciones \n-Predicado \n-Conjunciones \n-Cuantificadores \n-Átomos"
+      ]
+    },
+    {
+      "tag": "inferencia",
+      "patterns": [
+        "que es inferencia",
+        "definicion de inferencia",
+        "dime algo sobre inferencia",
+        "que puedes decirme sobre la inferencia"
+      ],
+      "responses": [
+        "Es el proceso de generar nuevas Formulas Bien Formadas a partir de las Formulas Bien Formadas existentes, mediante la aplicacion de las reglas de inferencia. Las reglas mas comunes son Modus Ponens, Modus Tollens y Especialización Universal."
+      ]
+    },
+    {
+      "tag": "fbf",
+      "patterns": [
+        "que son formulas bien formadas",
+        "formulas bien formadas",
+        "fbf",
+        "que es fbf"
+      ],
+      "responses": [
+        "Las Formulas Bien Formadas determinan los elementos válidos en la combinacion del alfabeto.",
+      ]
+    },
+    {
+      "tag": "frames_def",
+      "patterns": [
+        "que son frames",
+        "que son marcos",
+        "frames",
+        "marcos",
+        "definicion de marcos",
+        "definicion de frames"
+      ],
+      "responses": [
+        "Es una forma de organizar la información referente a un objeto, donde se describen las propiedades del objeto en forma similar a un registro de una base de datos, donde se reservan los campos, para cada propiedad",
+        "Un frame representa un objeto o situación describiendo la colección de atributos que posee"
+      ]
+    },
+    {
+      "tag": "frames_conf",
+      "patterns": [
+        "como se forman los frames",
+        "como se forman los marcos",
+        "como se componen los frames",
+        "como se componen los marcos",
+        "de que se componen los frames",
+        "de que se componen los marcos",
+        "de que esta hecho un frame",
+        "de que esta hecho un marco"
+      ],
+      "responses": [
+        "Los frames o marcos están formados por un nombre y una serie de atributos (slots), que poseen valores y describen una entidad del mundo. Cada slot puede contener uno o más enlaces (facets). Cada enlace tiene un valor asociado."
+      ]
+    },
+    {
+      "tag": "frames_caract",
+      "patterns": [
+        "caracteristicas de los marcos",
+        "caracteristicas de los frames",
+        "dime que características tienen los frames",
+        "dime que características tienen los marcos",
+        "para que sirven los frames",
+        "para que sirven los marcos",
+        ""
+      ],
+      "responses": [
+        "-Permiten expresar el conocimiento declarativo y procedimental \n -Reflejan un conocimiento estático del mundo"
+      ]
+    },
+    {
+      "tag": "frames_ex",
+      "patterns": [
+        "dame ejemplos de frames",
+        "dame ejemplos de marcos",
+        "ejemplos de frames",
+        "ejemplos de marcos",
+        "puedes mostrarme ejemplos de frames",
+        "puedes mostrarme ejemplos de marcos"
+      ],
+      "responses": [
+       "Probablemente esto te pueda ayudar: https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)" 
+      ]
     }
 ]}
