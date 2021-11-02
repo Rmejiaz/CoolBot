@@ -56,13 +56,13 @@ train_y = list(training[:,1])
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Input(shape = len(train_x[0])))
 model.add(tf.keras.layers.Dense(128, activation='relu'))
-model.add(tf.keras.layers.Dropout(0.5))
+model.add(tf.keras.layers.Dropout(0.6))
 model.add(tf.keras.layers.Dense(64, activation = 'relu'))
-model.add(tf.keras.layers.Dropout(0.5))
+model.add(tf.keras.layers.Dropout(0.6))
 model.add(tf.keras.layers.Dense(len(train_y[0]), activation = 'softmax'))
 
 model.compile(loss = 'categorical_crossentropy', optimizer=tf.keras.optimizers.SGD(learning_rate=0.01, decay = 1e-6, momentum=0.9, nesterov = True), metrics = ['accuracy'])
 
-hist = model.fit(np.array(train_x), np.array(train_y), epochs = 200, batch_size = 5, verbose = 1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs = 20, batch_size = 32, verbose = 1)
 
 model.save('model1.h5')

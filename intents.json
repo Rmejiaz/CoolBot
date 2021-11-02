@@ -7,7 +7,12 @@
             "hello",
             "hi",
             "hallo",
-            "ola"
+            "ola",
+            "buenas",
+            "buenas tardes",
+            "buenos dias",
+            "buenas noches",
+            "buen dia"
         ],
         "responses": [
             "Hola, como puedo ayudarte?",
@@ -19,9 +24,6 @@
             "Como te va el dia de hoy?",
             "Hallo!",
             "Hi tu"
-        ],
-        "context": [
-            ""
         ]
     },
     {
@@ -45,9 +47,6 @@
             "Muy bien, como estas tu?",
             "Encantado de saludarte y tu que tal vas?",
             "Muy bien, gloria a Dios"
-        ],
-        "context": [
-            ""
         ]
     },
     {
@@ -56,7 +55,9 @@
             "bien",
             "super",
             "excelente",
-            "feliz"
+            "feliz",
+            "dichoso",
+            "bendecido por el señor"
         ],
         "responses": [
             "Me alegra, como puedo ayudarte?"
@@ -69,7 +70,10 @@
             "no muy bien",
             "triste",
             "ahi vamos",
-            "luchandola"
+            "luchandola",
+            "suave",
+            "masomenos",
+            "mas o menos"
         ],
         "responses": [
             "Que mal, hay algo en lo que pueda ayudarte?",
@@ -176,11 +180,13 @@
       "patterns": [
         "que son formulas bien formadas",
         "formulas bien formadas",
+        "formula bien formada",
+        "que es una formula bien formada",
         "fbf",
         "que es fbf"
       ],
       "responses": [
-        "Las Formulas Bien Formadas determinan los elementos válidos en la combinacion del alfabeto.",
+        "Las Formulas Bien Formadas determinan los elementos válidos en la combinacion del alfabeto."
       ]
     },
     {
@@ -191,7 +197,10 @@
         "frames",
         "marcos",
         "definicion de marcos",
-        "definicion de frames"
+        "definicion de frames",
+        "marco",
+        "que es un marco",
+        "sabes que es un marco"
       ],
       "responses": [
         "Es una forma de organizar la información referente a un objeto, donde se describen las propiedades del objeto en forma similar a un registro de una base de datos, donde se reservan los campos, para cada propiedad",
@@ -241,6 +250,74 @@
       ],
       "responses": [
        "Probablemente esto te pueda ayudar: https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)" 
+      ]
+    },
+    {
+      "tag": "others",
+      "patterns": [
+        "jajajaja",
+        "feo",
+        "gas",
+        "malooo",
+        "payaso",
+        "no sirves",
+        "basura",
+        "tus creadores no sirven para nada"
+      ],
+      "responses": [
+        "¿Que sientes cuando dices eso?",
+        "¿Por qué dices eso?",
+        "¿Hay algo que he hecho mal?",
+        "..."
+      ]
+    },
+    {
+      "tag": "credits",
+      "patterns": [
+        "quien te creo",
+        "quien es tu padre",
+        "por quien fuiste creado",
+        "quien escribió tu codigo fuente",
+        "quien te programo"
+      ],
+      "responses": [
+        "Fui creado por Rafael Mejía Zuluaga y Santiago Buitrago Osorio, con el propósito de ayudar a los estudiantes de SIC en los temas de lógica de predicados y marcos",
+        "Mis creadores son dos estudiantes de ingeniería electrónica",
+        "Santiago y Rafael, nací como parte de una tarea de Sistemas Inteligentes Computacionales, en la Universidad Nacional de Colombia"      
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "chao",
+        "muchas gracias",
+        "gracias",
+        "hasta luego",
+        "thanks",
+        "bye",
+        "thank you",
+        "adios",
+        "nos vemos",
+        "hablamos luego"
+      ],
+      "responses": [
+        "Espero haber sido de ayuda.",
+        "Hasta luego, que estés bien.",
+        "Saludos.",
+        "Salu2 jeje.",
+        "Hasta la próxima."
+      ]
+    },
+    {
+      "tag": "defaults",
+      "patterns": [""],
+      "responses": [
+        "No entiendo (>.<)",
+        "¿Podrías ser más claro?",
+        "Bip bop... *c muere*",
+        "Mmmm parece que algo salió mal, podrías reformular tu pregutna?",
+        "Error 404",
+        "..."
       ]
     }
 ]}
