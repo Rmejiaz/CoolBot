@@ -59,7 +59,7 @@ def predict_class(sentence, model):
 
     for r in results:
         return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
-    print(return_list)
+    # print(return_list)
     return return_list
 
 
